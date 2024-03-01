@@ -20,7 +20,7 @@ export default function Home() {
     navigate("/login");
   };
 
-  //------ Task Management App ------//
+  //------ Task Tracker App ------//
   const [tasks, setTasks] = useState([]);
 
   //--Hook to retrieve data from local storage--//
