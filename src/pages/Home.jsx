@@ -115,6 +115,7 @@ export default function Home() {
           <Navbar.Brand href="/">
             <i className="fa-solid fa-dragon fs-3" />
           </Navbar.Brand>
+
           <Nav className="me-auto">
             <Button
               href="/timer"
@@ -130,6 +131,7 @@ export default function Home() {
               TIMER
             </Button>
           </Nav>
+
           <Nav className="align-items-center">
             <Navbar.Text
               className="text-center"
@@ -143,6 +145,7 @@ export default function Home() {
             </Navbar.Text>
           </Nav>
         </Container>
+
         <Button
           className="mx-3"
           onClick={handleShow}

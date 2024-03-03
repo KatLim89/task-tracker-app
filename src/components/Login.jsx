@@ -38,6 +38,7 @@ export default function Login() {
                   <h2 className="text-uppercase text-center mb-5">
                     Log-in Account
                   </h2>
+
                   <Form onSubmit={handleLogin}>
                     <Form.Group className="mb-4" controlId="formEmailLogin">
                       <Form.Label>Email Address</Form.Label>

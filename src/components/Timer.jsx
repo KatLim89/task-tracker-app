@@ -30,7 +30,6 @@ export default function Timer() {
         }
       }, 1000);
     }
-
     return () => clearInterval(timer);
   }, [isActive, minutes, seconds]);
 
@@ -105,6 +104,7 @@ export default function Timer() {
             </Card>
           </Col>
         </Row>
+
         <Row
           className="d-flex justify-content-center align-items-center"
           style={{ flexWrap: "nowrap", margin: "10px" }}

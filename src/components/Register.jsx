@@ -30,6 +30,7 @@ export default function Register() {
                   <h2 className="text-uppercase text-center mb-5">
                     Create an account
                   </h2>
+
                   <Form onSubmit={handleSubmit}>
                     <Form.Group className="mb-4" controlId="formNameRegister">
                       <Form.Label>User Name</Form.Label>
